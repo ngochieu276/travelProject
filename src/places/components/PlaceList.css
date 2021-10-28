@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .place-list-userPlaces {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .place-list-userPlaces::after {
+    background-color: #659dbd;
+    content: "";
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+  }
+
+  .place-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

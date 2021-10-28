@@ -1,0 +1,29 @@
+/* .users-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-list-title {
+  text-align: center;
+} */
+
+.users-list {
+  list-style: none;
+  padding: 0;
+  max-width: 50rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .users-list {
+    padding: 0;
+    width: 25%;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
